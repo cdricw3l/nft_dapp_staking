@@ -54,13 +54,14 @@ Transparence totale : Intégration avec The Graph pour suivre en temps réel les
 
 # Roadmap
 
-Phase 1 : Développement et lancement du testnet avec les actifs cryptographiques populaires (BTC, ETH, etc.).
-Phase 2 : Intégration de The Graph pour la transparence et la traçabilité des données.
-Phase 3 : Lancement sur mainnet avec une base d'utilisateurs élargie.
-Phase 4 : Introduction de nouveaux actifs financiers tokenisés (actions, matières premières).
-Installation et Déploiement
-:
+* Phase 1 : Développement et lancement du testnet avec les actifs cryptographiques populaires (BTC, ETH, etc.).
+* Phase 2 : Intégration de The Graph pour la transparence et la traçabilité des données.
+* Phase 3 : Lancement sur mainnet avec une base d'utilisateurs élargie.
+* Phase 4 : Introduction de nouveaux actifs financiers tokenisés (actions,matières premières).
 
+# Installation et Déploiement
+
+Install
 ```bash
 npm install
 ```
