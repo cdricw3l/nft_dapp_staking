@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
+  <diagram name="Page-1" id="U7I2IAQGmlWfTDbmmGAK">
+    <mxGraphModel dx="1466" dy="939" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-1" value="DAO CONTRACT" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-2" value="FACTORY CONTRACT" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-3" value="STAKING MANAGER" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-4" value="REWARD MANAGER" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="880" y="250" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;targetPerimeterSpacing=6;strokeColor=#FF247B;strokeWidth=3;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-1" target="TQNTJ49vkRVd2rRvTAJP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;targetPerimeterSpacing=6;strokeColor=#FF247B;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-4" target="TQNTJ49vkRVd2rRvTAJP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="420" as="sourcePoint" />
+            <mxPoint x="900" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-11" value="NFT CONTRACT" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;targetPerimeterSpacing=6;strokeColor=#FF247B;strokeWidth=3;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-3" target="TQNTJ49vkRVd2rRvTAJP-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="390" as="sourcePoint" />
+            <mxPoint x="750" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-2" target="TQNTJ49vkRVd2rRvTAJP-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="570" as="sourcePoint" />
+            <mxPoint x="650" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-15" value="Proposal&lt;div&gt;Listing&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-17" value="DOT&lt;div&gt;721&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#2fd032;strokeWidth=3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TQNTJ49vkRVd2rRvTAJP-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.47" y="570" as="sourcePoint" />
+            <mxPoint x="539" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-17" target="TQNTJ49vkRVd2rRvTAJP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="640" as="sourcePoint" />
+            <mxPoint x="680" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-11" target="TQNTJ49vkRVd2rRvTAJP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="650" as="sourcePoint" />
+            <mxPoint x="950" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-22" value="BTC&lt;div&gt;721&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-22" target="TQNTJ49vkRVd2rRvTAJP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="650" as="sourcePoint" />
+            <mxPoint x="950" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-24" value="" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=6;strokeColor=#FF247B;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="34.47000000000003" as="sourcePoint" />
+            <mxPoint x="65" y="34.47000000000003" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-25" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;ownership&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="20" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-1" target="TQNTJ49vkRVd2rRvTAJP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="380" as="sourcePoint" />
+            <mxPoint x="550" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-27" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="34.47000000000003" as="sourcePoint" />
+            <mxPoint x="210" y="34.47000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;execution flow&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-31" value="Oracle&lt;div&gt;Pyth Network&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="780" y="30" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-33" value="ERC20" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-3" target="TQNTJ49vkRVd2rRvTAJP-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="100" as="sourcePoint" />
+            <mxPoint x="740" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-40" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="150" as="sourcePoint" />
+            <mxPoint x="790" y="246" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-41" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="150" as="sourcePoint" />
+            <mxPoint x="890" y="246" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#2fd032;strokeWidth=3;" edge="1" parent="1" source="TQNTJ49vkRVd2rRvTAJP-4" target="TQNTJ49vkRVd2rRvTAJP-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="240" as="sourcePoint" />
+            <mxPoint x="1090" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQNTJ49vkRVd2rRvTAJP-46" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;NFT STACKING DIAGRAME&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="14" y="491" width="301" height="38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
