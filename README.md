@@ -38,6 +38,31 @@ Ri = (ΔPi / Σ ΔPj) * (1 / Ni) * (1 - 0.10)
 * Ni : Nombre de NFTs représentant l'actif i.
 * 10 % de frais sont prélevés pour soutenir l'infrastructure du protocole.
 
+# Mécanismes Incitatifs Algorithmiques
+Le protocole NFT Finance Staking Pools (NFSP) intègre plusieurs mécanismes algorithmiques qui incitent les utilisateurs à diversifier leurs investissements, à staker sur des actifs sous-représentés et à conserver leurs positions à long terme. Ces mécanismes sont intégrés de manière entièrement automatique et ajustent dynamiquement les récompenses en fonction de la performance et de la participation des utilisateurs.
+
+## Récompenses pour les Actifs Sous-Représentés :
+
+Les actifs qui ont une faible proportion de NFTs dans la pool reçoivent un multiplicateur de récompense pour inciter les utilisateurs à investir davantage dans ces actifs.
+
+## Réduction Automatique des Frais pour les Actifs Sous-Performants :
+
+Les actifs ayant une performance inférieure à un seuil voient automatiquement leurs frais réduits, augmentant ainsi les récompenses pour les utilisateurs qui choisissent d'investir dans des actifs à risque.
+Récompenses Croissantes avec la Durée du Staking :
+
+Plus un NFT est staké longtemps, plus les récompenses augmentent proportionnellement à la durée du staking, incitant ainsi les utilisateurs à conserver leurs positions sur le long terme.
+
+## Récompenses Basées sur la Volatilité :
+
+Les actifs plus volatils reçoivent des récompenses supplémentaires en raison du risque accru qu'ils représentent. La volatilité est calculée automatiquement et ajustée dans les récompenses.
+Réallocation Basée sur la Performance Relative :
+
+Les actifs qui surperforment par rapport aux autres reçoivent une plus grande part des récompenses, tandis que les actifs sous-performants voient leur part diminuer automatiquement.
+Bonus pour Investissements Répétés :
+
+Les utilisateurs qui stakent régulièrement et réinvestissent dans le protocole obtiennent des bonus cumulés sur leurs récompenses, incitant une participation active et continue.
+Ces mécanismes algorithmiques assurent une allocation des récompenses flexible, transparente et équilibrée, tout en créant un environnement compétitif où la sélection d’actifs, la diversification et la stratégie à long terme sont valorisées.
+
 # Exemple de Fonctionnement
 
 Cas avec 5 utilisateurs et 5 actifs :
@@ -50,7 +75,7 @@ Après 3 mois, les performances des actifs sont les suivantes :
 * ADA : -1 %, 
 * DOT : +12 %
 
-Les récompenses après frais (22,5 DAI) sont réparties proportionnellement à la performance des actifs.
+Les récompenses après frais (22,5 DAI) sont réparties proportionnellement à la performance des actifs et aux mécanismes incitatifs mis en place.
 
 # Avantages du Protocole
 
